@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
+  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
+  <!-- TODO: Write a compelling 150-160 character description of your research -->
+  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Add 5-10 relevant keywords for your research area -->
+  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
+  <!-- TODO: List all authors -->
+  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <!-- TODO: Replace with your institution or lab name -->
+  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
+  <!-- TODO: Same as paper title above -->
+  <meta property="og:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Replace with your actual website URL -->
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <!-- TODO: Create a 1200x630px preview image and update path -->
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
+  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="KEYWORD1">
+  <meta property="article:tag" content="KEYWORD2">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- TODO: Replace with your lab/institution Twitter handle -->
+  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
+  <!-- TODO: Replace with first author's Twitter handle -->
+  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
+  <!-- TODO: Same as paper title above -->
+  <meta name="twitter:title" content="PAPER_TITLE">
+  <!-- TODO: Same as description above -->
+  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Same as social preview image above -->
+  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="PAPER_TITLE">
+  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
+  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
+  <meta name="citation_publication_date" content="2024">
+  <meta name="citation_conference_title" content="CONFERENCE_NAME">
+  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <!-- TODO: Replace with your paper title and authors -->
+  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  
+  <!-- Structured Data for Academic Papers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "PAPER_TITLE",
+    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "FIRST_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "SECOND_AUTHOR_NAME",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "INSTITUTION_NAME"
+        }
+      }
+    ],
+    "datePublished": "2024-01-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CONFERENCE_OR_JOURNAL_NAME"
+    },
+    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
+    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
+    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
+    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "citation": "BIBTEX_CITATION_HERE",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "RESEARCH_AREA_1"
+      },
+      {
+        "@type": "Thing", 
+        "name": "RESEARCH_AREA_2"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Website/Organization Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "INSTITUTION_OR_LAB_NAME",
+    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "sameAs": [
+      "https://twitter.com/YOUR_TWITTER_HANDLE",
+      "https://github.com/YOUR_GITHUB_USERNAME"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- More Works Dropdown -->
+  <!-- <div class="more-works-container">
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
+      <i class="fas fa-flask"></i>
+      More Works
+      <i class="fas fa-chevron-down dropdown-arrow"></i>
+    </button>
+    <div class="more-works-dropdown" id="moreWorksDropdown">
+      <div class="dropdown-header">
+        <h4>More Works from Our Lab</h4>
+        <button class="close-btn" onclick="toggleMoreWorks()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="works-list">
+        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>Paper Title 1</h5>
+            <p>Brief description of the work and its main contribution.</p>
+            <span class="work-venue">Conference/Journal 2024</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>Paper Title 2</h5>
+            <p>Brief description of the work and its main contribution.</p>
+            <span class="work-venue">Conference/Journal 2023</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>Paper Title 3</h5>
+            <p>Brief description of the work and its main contribution.</p>
+            <span class="work-venue">Conference/Journal 2023</span>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </div> -->
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">WatchGuardian: Enabling User-Defined Personalized Just-in-Time Intervention on Smartwatch</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- TODO: Replace with your paper authors and their personal links -->
+              <span class="author-block">
+                <a href="https://orcid.org/0000-0001-8326-1369" target="_blank">Ying Lei</a><sup>*,1</sup>,</span>
+                <span class="author-block">
+                  <a href="https://orcid.org/0000-0003-3033-8881" target="_blank">Yancheng Cao</a><sup>*,2</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://orcid.org/0000-0003-1444-5468" target="_blank">Will Ke Wang</a><sup>2</sup>,</span>
+                    <span class="author-block"></span>
+                        <a href="https://orcid.org/0009-0006-2013-1157" target="_blank">Yuanzhe Dong</a><sup>3</sup>,</span>
+                        <span class="author-block"></span>
+                          <a href="https://orcid.org/0000-0002-6540-6365" target="_blank">Changchang Yin</a><sup>4</sup>,</span>
+                          <span class="author-block"></span>
+                            <a href="https://orcid.org/0000-0001-5417-2121" target="_blank">Weidan Cao</a><sup>4</sup>,</span>
+                            <span class="author-block"></span>
+                              <a href="https://orcid.org/0000-0002-4601-0779" target="_blank">Ping Zhang</a><sup>4</sup>,</span>
+                              <span class="author-block"></span>
+                                <a href="https://orcid.org/0000-0003-4019-0999" target="_blank">Jingzhe Yang</a><sup>5</sup>,</span>
+                                <span class="author-block"></span>
+                                  <a href="https://orcid.org/0009-0004-8329-4610" target="_blank">Bingsheng Yao</a><sup>6</sup>,</span>
+                                  <span class="author-block"></span>
+                                    <a href="https://orcid.org/0000-0001-9309-8331" target="_blank">Yifan Peng</a><sup>7</sup>,</span>
+                                    <span class="author-block"></span>
+                                      <a href="https://orcid.org/0000-0002-9624-0214" target="_blank">Chunhua Weng</a><sup>2</sup>,</span>
+                                      <span class="author-block"></span>
+                                        <a href="https://orcid.org/0000-0003-2319-4744" target="_blank">Randy Auerbach</a><sup>2</sup>,</span>
+                                          <span class="author-block"></span>
+                                            <a href="https://orcid.org/0000-0001-5203-274X" target="_blank">Lena Mamykina</a><sup>2</sup>,</span>
+                                            <span class="author-block"></span>
+                                              <a href="https://orcid.org/0000-0001-9371-9441" target="_blank">Dakuo Wang</a><sup>†,6</sup>,</span>
+                                              <span class="author-block"></span>
+                                                <a href="https://orcid.org/0000-0002-4249-8893" target="_blank">Yuntao Wang</a><sup>†,8</sup>,</span>
+                                                <span class="author-block"></span>
+                                                  <a href="https://orcid.org/0000-0001-5930-3899" target="_blank">Xuhai Xu</a><sup>†,2</sup>,</span>
+                                                  <span class="author-block"></span>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <!-- TODO: Replace with your institution and conference/journal info -->
+                    <span class="author-block"><sup>1</sup>Simon Fraser University,</span>
+                    <span class="author-block"><sup>2</sup>Columbia University,</span>
+                    <span class="author-block"><sup>3</sup>Stanford University,</span>
+                    <span class="author-block"><sup>4</sup>The Ohio State University,</span>
+                    <span class="author-block"><sup>5</sup>Nationwide Children's Hospital,</span>
+                    <span class="author-block"><sup>6</sup>Northeastern University,</span>
+                    <span class="author-block"><sup>7</sup>Weill Cornell Medicine,</span>
+                    <span class="author-block"><sup>8</sup>University of Washington,</span>
+                      <br>ACM Transactions on Computing for Healthcare 2026</span>
+                    <!-- TODO: Remove this line if no equal contribution -->
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="eql-cntrb"><small><br><sup>†</sup>Indicates Corresponding Authors</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                      <span class="link-block">
+                        <a href="https://dl.acm.org/doi/epdf/10.1145/3788689" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                  <!-- <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code-Coming Soon</span>
+                  </a>
+                </span> -->
+
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2502.05783" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- TODO: Replace with your teaser video -->
+      <!-- <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+        <source src="static/videos/banner_video.mp4" type="video/mp4">
+      </video> -->
+      <img src="static/images/Figure1.png" alt="First research result visualization" loading="lazy"/>
+      <!-- TODO: Replace with your video description -->
+      <h2 class="subtitle has-text-centered">
+        WatchGuardian empowers users to easily define personal actions that they want to receive just-in-time intervention (JITI) from a smartwatch. The user journey is as follows: (1) Users determine one or more custom target actions. (2) They follow the instructions on the smartwatch to collect a small set of samples with the accelerometer sensor. (3) WatchGuardian applies multiple data augmentation and data synthesis techniques to expand the training dataset, (4) WatchGuardian adapts a pre-trained model through fine-tuning and personal customization. (5) WatchGuardian leverages the custom model to provide a JITI system for real-time action recognition and intervention delivery.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            While just-in-time interventions (JITIs) have effectively targeted common health behaviors, individuals often have unique needs to intervene in personal undesirable actions that can negatively affect physical, mental, and social well-being.
+            We present WatchGuardian, a smartwatch-based JITI system that empowers users to define custom interventions for personal actions with few samples.
+            To detect new actions from limited data, we developed a few-shot learning pipeline that finetuned a pre-trained inertial measurement unit (IMU) model on public hand-gesture datasets.
+            We then designed a data augmentation and synthesis process to train additional classification layers for customization.
+            Our offline evaluation with 26 participants showed that with three, five, and ten examples, our approach achieved an accuracy of 76.8%, 84.7%, and 87.7%, and an F1 score of 74.8%, 84.2%, and 87.3%.
+            We then conducted a four-hour intervention study to compare WatchGuardian against a rule-based intervention. Our results demonstrated that our system led to a significant reduction by 64.0±22.6% in undesirable actions, substantially outperforming the baseline by 29.0%.
+            Our findings underscore the effectiveness of a customizable, AI-driven JITI system for individuals in need of behavioral intervention in personal undesirable actions.
+            We envision that our work can inspire broader applications of user-defined personalized intervention with advanced AI solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Few-shot Learning Pipeline</h2>
+      <div>
+        (A) Stage 1: We adopted A pre-trained SSL model for human activity recognition that takes 30 Hz tri-axis accelerometer data streams. 
+        (B) Stage 2: We finetuned the pre-trained model on two human activity recognition datasets with more fine-grained gestures, together with additional negative data collected by us. 
+        (C) Stage 3: Given the data sequence of a few samples of the new target action, we designed a series of data augmentation and synthesis techniques to enable robust modeling training for customization.
+      </div>
+      </br>
+      <div style="text-align: center;">
+        <img src="static/images/Figure2.png" style="width: auto; height: 260px;" alt="" loading="lazy"/>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Smartwatch Interface Designs</h2>
+      <div>
+        (A) Few-shot data collection interface, where a user can define the target behavior and the number of shots. The user can name the gesture once the collection is finished. 
+        (B) Intervention reminder interface, which is shown when the system detects undesirable target actions.
+      </div>
+      </br>
+      <div style="display:flex; justify-content:center; gap:20px;">
+        <img src="static/images/Figure3-1.png"
+             style="height:260px; width:auto"
+             alt="" loading="lazy"/>
+      </div>      
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Target Actions for Evaluation</h2>
+      <div>
+        (1-5) presents the five pre-determined actions. 
+        (6-17) visualizes new target behaviors defined by participants. 
+        Only identical actions are grouped as one. 
+        Actions that have minor differences are counted separately, as each of them could be highly personal.
+      </div>
+      </br>
+      <div style="text-align: center;">
+        <img src="static/images/Figure4.png" style="width: auto; height: 390px;" alt="" loading="lazy"/>
+      </div>    
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Offline Performance Evaluation</h2>
+      <div>
+        We evaluated our pipeline offline by adding one or more actions as target actions. For each action, we randomly selected two rounds of recordings as the training set (up to 10 shots), one round as the validation set (5 shots), and the remaining two rounds as the test set (10 shots). We repeated the training three times and calculated the average performance.
+      </div>
+      </br>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <img src="static/images/Figure5.png" alt="" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          Few-shot Learning Pipeline Performance of Accuracy and F1 Score. We experimented with different numbers of shots using 1 to 10 samples to train a custom model. 
+          We also experimented with adding more than one target action simultaneously (i.e., multi-class classification). 
+          Error bars indicate standard error. The same below.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/Table1.png" alt="Second research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          Detailed Few-shot Pipeline Performance with Different Numbers of Shots when Adding One Personal Action. 
+          Window-level results are based on each sliding window as a data point. 
+          Action-level results are the aggregation of the sliding windows after smoothing post-processing (threshold=3) and are closer to real-life application scenarios.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/Figure6.png" alt="Third research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          Model Performance of Recognizing Each Action with 1, 5, or 10 Shots. 
+          For consistency, each action was added alone (i.e., binary classification model). The “(User Num)” indicates how many users did this action. 
+          The five pre-determined actions (Lip Tearing, Nail Biting, Face Scratching, Eye Rubbing, and Leg Shaking) have the total number of participants (26), and other self-defined actions are more scattered.
+       </h2>
+     </div>
+     <div class="item">
+      <img src="static/images/Table2.png" alt="Fourth research result visualization" loading="lazy"/>
+      <h2 class="subtitle has-text-centered">
+        Action-Level Results of Comparison Study and Ablation Study. 
+        The same training (5 shots, one new target behavior) and testing data were used to ensure consistency.
+      </h2>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Intervention Evaluation</h2>
+      <div>
+        Building upon the pipeline, we further conducted a user study to evaluate the effectiveness of WatchGuardian and compared it against a rule-based baseline intervention system.
+      </div>
+      </br>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <img src="static/images/Figure7.png" alt="" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          WatchGuardian Intervention Evaluation Setup. 
+          (a) The photo of a participant in the room. 
+          (b) The sketch of the study room and apparatus setup for intervention. 
+          (c) The video from the camera on the corner that records the ground truth.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/Figure8.png" alt="Second research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          (a) Relative Duration of target action every 10 minutes in intervention and post-intervention stages (compared to the pre-intervention stage). 
+          A number lower than 1.0 means that an individual performed fewer target actions after intervention. 
+          (b) Average Relative Duration of target action over time. 
+          The dashed lines fit the last 10 minutes of the pre-intervention stage and the rest of the session.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/Figure9.png" alt="Third research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          (a) Relative duration of target action for participants who watched engaging videos. 
+          (b) Relative duration of target action for participants who watched disengaging videos.
+        </h2>
+     </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- <h2 class="title is-3">Video Presentation</h2> -->
+      <h2 class="title is-3">Video Demo</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <iframe src="https://youtu.be/GYs8mQXb36Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+
+<!-- Video carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
+            <source src="static/videos/carousel1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
+            <source src="static/videos/carousel2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+            <source src="static/videos/carousel3.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- End video carousel -->
+
+
+
+
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+
+      <!-- TODO: Replace with your poster PDF -->
+      <iframe  src="static/pdfs/ACM_Just_Accept.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+      <pre id="bibtex-code"><code>
+@article{lei2025watchguardian,
+  title={Watchguardian: Enabling user-defined personalized just-in-time intervention on smartwatch},
+  author={Lei, Ying and Cao, Yancheng and Wang, Will Ke and Dong, Yuanzhe and Yin, Changchang and Cao, Weidan and Zhang, Ping and Yang, Jingzhe and Yao, Bingsheng and Peng, Yifan and others},
+  journal={ACM Transactions on Computing for Healthcare},
+  year={2025},
+  publisher={ACM New York, NY}
+}
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
